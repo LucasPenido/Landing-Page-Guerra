@@ -7,7 +7,7 @@ const CheckBox = (props) => {
 		<Form.Group>
 			<Form.Row>
 				<Form.Label>
-					Informe as Marcas de Carro que mais lhe interessam:
+					Informe as marcas de carro que mais lhe interessa:
 				</Form.Label>
 				{Object.keys(props.carObj).map((key) => (
 					<Col key={`col-${key.toString()}`} xs='auto'>

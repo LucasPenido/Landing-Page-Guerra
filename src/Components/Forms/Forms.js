@@ -49,7 +49,7 @@ const Forms = () => {
 		<Form onSubmit={handleSubmit} className='rounded Form'>
 			<Form.Group>
 				<Form.Text className='Form-header'>
-					Preencha os campos para que possamos lhe contactar
+					Preencha os campos para que possamos entrar em contato
 				</Form.Text>
 			</Form.Group>
 			<Input
@@ -67,7 +67,7 @@ const Forms = () => {
 			<Input
 				labelName='Telefone*'
 				controlId='formPhone'
-				type='number'
+				type='tel'
 				onChange={(event) => inputHandle(event, setPhone)}
 			/>
 			<CheckBox onClick={(event) => checkHandle(event)} carObj={carObj} />
