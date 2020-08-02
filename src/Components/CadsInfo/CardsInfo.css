@@ -1,0 +1,17 @@
+.card {
+	text-align: center;
+	padding-top: 10px;
+	border-color: #e87828;
+	border-width: 1.4px;
+	border-radius: 10px;
+}
+
+.icon {
+	width: 65px;
+	align-self: center;
+}
+
+.card-title {
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
